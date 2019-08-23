@@ -43,15 +43,15 @@ closures give you access to an outer functions scope from within an internal fun
 
 4. Describe the four rules of the 'this' keyword.
 
-1.Window binding: if in the global scope the value of this is window or console Object
+1.Window binding: if in the global scope the value of 'this' is the window or console Object
 2.Implicit binding: is when the function is being called by a dot> The object left of the dot is THIS.
-3.New binding: Creates a new instance of teh Constructor function using new "Name".
+3.New binding: Creates a new instance of the Constructor function using keyword new "Name".
 4.Explicit binding: If the function is being called explicitly by  call(), apply(), or bind()
 
 
 5. Why do we need super() in an extended class?
 
-Super() allows us to call the constructor of the parent class anc allows you to access function on an objects parent class. 
+Super() allows us to call the constructor of the parent class and allows you to access the function on an objects parent class. 
 
 
 ## Project Set up

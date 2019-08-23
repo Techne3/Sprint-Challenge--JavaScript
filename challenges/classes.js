@@ -25,7 +25,10 @@
             width:5,
             height:5,
         })
- 
+
+
+
+//Stretch
 
         class CubeMaker extends CuboidMaker{
             constructor(at){
@@ -39,7 +42,7 @@
             }
         }
         const cuboids = new CubeMaker({
-            length:4,
+            length:5,
             width:5,
             height:5,
         })
